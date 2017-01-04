@@ -1,4 +1,4 @@
-# Highlight
+# TriggerViewport
 [![NPM version][npm-img]][npm]
 [![Build Status][ci-img]][ci]
 [![Coverage Status][coveralls-img]][coveralls]

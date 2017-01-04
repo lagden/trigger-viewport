@@ -25,13 +25,15 @@ class TriggerViewport {
 			trigger: 50,
 			cb: null
 		}, options)
+
+		this.tick()
 		window.addEventListener('scroll', this)
 	}
 
 	_calc(el, trigger) {
 		const bounds = el.getBoundingClientRect()
 		const percent = Math.ceil((bounds.top * 100) / this.win.height)
-		return percent === trigger
+		return percent <= trigger
 	}
 
 	update() {

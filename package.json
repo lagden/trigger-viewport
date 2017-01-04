@@ -1,6 +1,6 @@
 {
   "name": "lagden-trigger-viewport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detects when an element reaches the value inside the viewport",
   "keywords": [
     "viewport",
